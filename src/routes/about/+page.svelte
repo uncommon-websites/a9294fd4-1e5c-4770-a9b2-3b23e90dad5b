@@ -26,29 +26,25 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Stories that move markets"
+	subtitle="Build a narrative investors believe in"
+	imageSrc="/generated/image-a-founder-strategist-sits-at-a-large-woo.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Most early-stage founders have a product, a pitch deck, and a vision. But what they often don't have is a coherent narrative that makes it all make sense—to investors, to customers, and even to their own team. Native started because we've lived this reality. Founder Jihad spent years watching talented frontier founders lose vital funding or fail to gain traction—not because the idea wasn't good, but because the story wasn't clear.",
+		"We've turned that frustration into a focused approach. Native helps founders craft a compelling narrative that aligns worldview, product, and go-to-market into a single, powerful foundation. We aren't an agency. We're a strategic partner with founder-market fit—fluent in the nuances of early-stage tech and deeply embedded in the world of ambitious, frontier founders shaping what's next. Think of us as your narrative co-founder.",
+		"Now, we're on a mission to raise the narrative standard for early-stage companies. Our goal is simple: make sure every great idea gets the clarity it deserves. Whether you're raising your first round or gearing up to launch, Native helps you build a story investors believe and customers remember. We're just getting started—and so are you."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -75,7 +71,6 @@
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,7 +92,6 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
 	title="Ready to collaborate?"
 	subtitle="Let's create something amazing"
 	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
