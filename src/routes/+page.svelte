@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+
+	// Icons
+	import IconLightbulb from "~icons/lucide/lightbulb";
+	import IconPresentationChart from "~icons/lucide/presentation";
+	import IconMessageSquare from "~icons/lucide/message-square";
+	import IconEye from "~icons/lucide/eye";
+	import IconTarget from "~icons/lucide/target";
+	import IconTrendingUp from "~icons/lucide/trending-up";
 </script>
 
 <CenteredTextOnlyHero
@@ -61,24 +69,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Turn scattered ideas into investor-ready narrative"
+	subtitle="Strategic features designed specifically for frontier founders who need to articulate their vision and attract funding through compelling storytelling"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Worldview development",
+			description: "Transform disconnected concepts into a cohesive company worldview that defines your unique market position and attracts both investors and customers.",
+			icon: IconLightbulb
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Investor narrative framework",
+			description: "Craft compelling funding stories that clearly communicate your vision, traction, and market opportunity to secure the capital you need to grow.",
+			icon: IconPresentationChart
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Consistent messaging system",
+			description: "Eliminate scattered communications with a unified narrative framework that ensures every touchpoint reinforces your core story and value proposition.",
+			icon: IconMessageSquare
+		},
+		{
+			title: "Vision articulation tools",
+			description: "Develop clear, compelling language that helps you confidently communicate your company's future to stakeholders, customers, and team members.",
+			icon: IconEye
+		},
+		{
+			title: "Market differentiation strategy", 
+			description: "Define what makes your approach unique in a crowded market through strategic narrative positioning that sets you apart from competitors.",
+			icon: IconTarget
+		},
+		{
+			title: "Narrative evolution guidance",
+			description: "Adapt your story as your company grows with frameworks that help you refine messaging while maintaining consistency across all communications.",
+			icon: IconTrendingUp
 		}
 	]}
 />
